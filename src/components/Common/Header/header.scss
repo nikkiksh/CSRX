@@ -1,0 +1,108 @@
+// .headerItem{
+//     padding: 0 10px;
+// }
+// .donate-btn{
+//     border-radius: 0;
+//     width: 100%;
+// }
+// .header-wrapper{
+//     background-color: #FCFCFC;
+// }
+@font-face{
+    font-family: 'Montserrat-Medium';
+    src:url('../../../styles/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+#bannerSlider img {
+    width: 100%;
+    height: 550px;
+}
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    width: 100%;
+}
+.header {
+    padding: 40px 0 60px 0;
+    font-family: 'Montserrat-Medium';
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.navbar {
+    padding: 0;
+}
+ 
+a {
+    color: #404040;
+    text-decoration: none;
+}
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.navbar-toggler-icon {
+    background-image: url('../../../images/mobmenu.svg');
+}
+.right-nav {
+    float: right;
+}
+ 
+.right-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+ 
+.search img {
+    width: 25px;
+}
+ 
+.brd-right {
+    border-right: 1px solid #404040;
+    padding-right: 10px;
+}
+ 
+.donate {
+    background: #fff;
+    color: #707070;
+    border: 1px solid #707070;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+ 
+#menu li.nav-item {
+    padding: 0 5px 0 15px;
+    text-align: center;
+    font-size: 18px;
+}
+ 
+/***css Richa**********/
+@media only screen and (min-width:1660px){
+    .navbar-brand{font-size:46px;}
+}
+ 
+@media only screen and (min-width:1025px) and (max-width:1660px){
+    .header {padding: 20px 0 20px 0;}
+    .navbar-brand{font-size:35px;}
+}
+@media screen and (max-width: 1360px) {
+#menu li.nav-item {
+    padding: 0 5px 0 3px;
+    font-size: 15px;
+}}
+ 
+@media screen and (max-width: 1024px) {
+    .navbar-brand{font-size:28px;}
+    .header {padding: 20px 0 20px 0;}
+}
+ 
+@media only screen and (max-width:600px){
+    .navbar-brand{font-size:25px;}
+}
